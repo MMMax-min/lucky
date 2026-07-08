@@ -1,0 +1,147 @@
+{
+  "dailyTemplates": {
+    "love": [
+      "今天感情运势不错，适合表白或约会。",
+      "今天感情运势平稳，适合与伴侣沟通。",
+      "今天感情运势较低，建议保持冷静。",
+      "今天桃花运旺盛，单身者有望遇到心仪对象。",
+      "今天适合处理感情中的误会，沟通是关键。"
+    ],
+    "career": [
+      "今天工作运势旺盛，适合推进重要项目。",
+      "今天工作运势平稳，按部就班即可。",
+      "今天工作运势较低，避免做重要决定。",
+      "今天适合与同事合作，团队效率会更高。",
+      "今天可能收到好消息，保持积极心态。"
+    ],
+    "wealth": [
+      "今天财运亨通，适合投资或购物。",
+      "今天财运平稳，不宜大额消费。",
+      "今天财运较低，建议节约开支。",
+      "今天可能有意外收入，但不宜贪心。",
+      "今天适合理财规划，为未来做打算。"
+    ],
+    "health": [
+      "今天身体状况良好，精力充沛。",
+      "今天身体状况一般，注意休息。",
+      "今天身体状况欠佳，建议减少活动。",
+      "今天适合做轻度运动，有助于放松身心。",
+      "今天需要注意饮食，避免暴饮暴食。"
+    ],
+    "social": [
+      "今天社交运势不错，适合参加聚会。",
+      "今天社交运势平稳，与朋友相处融洽。",
+      "今天社交运势较低，建议独处充电。",
+      "今天可能遇到新朋友，保持开放心态。",
+      "今天适合与老朋友联系，增进感情。"
+    ]
+  },
+  "weeklyTemplates": {
+    "love": [
+      "本周感情运势整体向好，适合增进感情。",
+      "本周感情运势有波动，需要多沟通理解。",
+      "本周感情运势平稳，保持现状即可。"
+    ],
+    "career": [
+      "本周工作运势不错，有望获得认可。",
+      "本周工作压力较大，注意调节节奏。",
+      "本周适合学习新技能，提升竞争力。"
+    ],
+    "wealth": [
+      "本周财运较好，可以考虑适当投资。",
+      "本周财运一般，建议保守理财。",
+      "本周可能有意外支出，做好预算。"
+    ]
+  },
+  "monthlyTemplates": {
+    "love": [
+      "本月感情运势起伏较大，需要耐心经营。",
+      "本月桃花运旺盛，单身者有望脱单。",
+      "本月感情稳定，适合规划未来。"
+    ],
+    "career": [
+      "本月事业运势上升，有望升职加薪。",
+      "本月工作挑战较多，但也是成长机会。",
+      "本月适合调整职业方向，重新定位。"
+    ],
+    "wealth": [
+      "本月财运亨通，正财偏财都有收获。",
+      "本月财运平平，以守为主。",
+      "本月适合做长期投资规划。"
+    ]
+  },
+  "zodiacFortunes": {
+    "rat": {
+      "personality": ["聪明", "机敏", "勤劳", "节俭"],
+      "description": "鼠年出生的人聪明机智，善于社交，有着敏锐的洞察力。在工作中，你总能抓住机遇，但有时过于谨慎会错失良机。",
+      "compatible": ["ox", "dragon", "monkey"],
+      "incompatible": ["horse", "rabbit", "rooster"]
+    },
+    "ox": {
+      "personality": ["勤劳", "踏实", "固执", "可靠"],
+      "description": "牛年出生的人勤劳务实，脚踏实地，有着坚强的意志力。你做事稳重，但有时过于固执，需要学会变通。",
+      "compatible": ["rat", "snake", "rooster"],
+      "incompatible": ["horse", "goat", "dog"]
+    },
+    "tiger": {
+      "personality": ["勇敢", "自信", "热情", "冲动"],
+      "description": "虎年出生的人勇敢自信，充满激情，有着领导才能。你敢于挑战，但有时过于冲动，需要三思而后行。",
+      "compatible": ["horse", "dog", "pig"],
+      "incompatible": ["snake", "monkey"]
+    },
+    "rabbit": {
+      "personality": ["温和", "善良", "谨慎", "优雅"],
+      "description": "兔年出生的人温和善良，心思细腻，有着优雅的气质。你善解人意，但有时过于敏感，需要增强自信。",
+      "compatible": ["goat", "pig", "dog"],
+      "incompatible": ["rat", "horse", "dragon"]
+    },
+    "dragon": {
+      "personality": ["自信", "热情", "有野心", "慷慨"],
+      "description": "龙年出生的人自信热情，胸怀大志，有着非凡的魅力。你追求卓越，但有时过于高傲，需要保持谦逊。",
+      "compatible": ["rat", "monkey", "rooster"],
+      "incompatible": ["dog", "rabbit", "dragon"]
+    },
+    "snake": {
+      "personality": ["智慧", "神秘", "优雅", "谨慎"],
+      "description": "蛇年出生的人智慧过人，神秘优雅，有着敏锐的直觉。你善于思考，但有时过于多疑，需要学会信任。",
+      "compatible": ["ox", "rooster", "monkey"],
+      "incompatible": ["tiger", "pig", "snake"]
+    },
+    "horse": {
+      "personality": ["热情", "自由", "活泼", "开朗"],
+      "description": "马年出生的人热情奔放，追求自由，有着无限的活力。你积极向上，但有时过于急躁，需要学会耐心。",
+      "compatible": ["tiger", "goat", "dog"],
+      "incompatible": ["rat", "ox", "horse"]
+    },
+    "goat": {
+      "personality": ["温柔", "善良", "创意", "内向"],
+      "description": "羊年出生的人温柔善良，富有创意，有着艺术天赋。你善解人意，但有时过于优柔寡断，需要果断决策。",
+      "compatible": ["rabbit", "horse", "pig"],
+      "incompatible": ["ox", "dog", "rat"]
+    },
+    "monkey": {
+      "personality": ["聪明", "机智", "活泼", "好奇"],
+      "description": "猴年出生的人聪明机智，活泼好动，有着强烈的好奇心。你适应力强，但有时过于投机，需要踏实做事。",
+      "compatible": ["rat", "dragon", "snake"],
+      "incompatible": ["tiger", "pig", "monkey"]
+    },
+    "rooster": {
+      "personality": ["勤奋", "认真", "直率", "自信"],
+      "description": "鸡年出生的人勤奋认真，直率自信，有着强烈的责任感。你做事细致，但有时过于挑剔，需要宽容待人。",
+      "compatible": ["ox", "dragon", "snake"],
+      "incompatible": ["rat", "horse", "rooster"]
+    },
+    "dog": {
+      "personality": ["忠诚", "可靠", "勇敢", "正直"],
+      "description": "狗年出生的人忠诚可靠，勇敢正直，有着强烈的正义感。你乐于助人，但有时过于焦虑，需要放松心态。",
+      "compatible": ["tiger", "rabbit", "horse"],
+      "incompatible": ["ox", "dragon", "dog"]
+    },
+    "pig": {
+      "personality": ["善良", "慷慨", "乐观", "真诚"],
+      "description": "猪年出生的人善良慷慨，乐观真诚，有着宽广的胸怀。你待人真诚，但有时过于轻信，需要提高警惕。",
+      "compatible": ["tiger", "rabbit", "goat"],
+      "incompatible": ["snake", "pig", "monkey"]
+    }
+  }
+}

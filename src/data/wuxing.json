@@ -1,0 +1,61 @@
+{
+  "heavenlyStems": {
+    "甲": { "element": "wood", "yin": false },
+    "乙": { "element": "wood", "yin": true },
+    "丙": { "element": "fire", "yin": false },
+    "丁": { "element": "fire", "yin": true },
+    "戊": { "element": "earth", "yin": false },
+    "己": { "element": "earth", "yin": true },
+    "庚": { "element": "metal", "yin": false },
+    "辛": { "element": "metal", "yin": true },
+    "壬": { "element": "water", "yin": false },
+    "癸": { "element": "water", "yin": true }
+  },
+  "earthlyBranches": {
+    "子": { "element": "water", "month": 11, "animal": "rat" },
+    "丑": { "element": "earth", "month": 12, "animal": "ox" },
+    "寅": { "element": "wood", "month": 1, "animal": "tiger" },
+    "卯": { "element": "wood", "month": 2, "animal": "rabbit" },
+    "辰": { "element": "earth", "month": 3, "animal": "dragon" },
+    "巳": { "element": "fire", "month": 4, "animal": "snake" },
+    "午": { "element": "fire", "month": 5, "animal": "horse" },
+    "未": { "element": "earth", "month": 6, "animal": "goat" },
+    "申": { "element": "metal", "month": 7, "animal": "monkey" },
+    "酉": { "element": "metal", "month": 8, "animal": "rooster" },
+    "戌": { "element": "earth", "month": 9, "animal": "dog" },
+    "亥": { "element": "water", "month": 10, "animal": "pig" }
+  },
+  "heavenlyStemsList": ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"],
+  "earthlyBranchesList": ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"],
+  "wuxingRelation": {
+    "metal": { "generate": "water", "restrict": "wood", "generatedBy": "earth", "restrictedBy": "fire" },
+    "wood": { "generate": "fire", "restrict": "earth", "generatedBy": "water", "restrictedBy": "metal" },
+    "water": { "generate": "wood", "restrict": "fire", "generatedBy": "metal", "restrictedBy": "earth" },
+    "fire": { "generate": "earth", "restrict": "metal", "generatedBy": "wood", "restrictedBy": "water" },
+    "earth": { "generate": "metal", "restrict": "water", "generatedBy": "fire", "restrictedBy": "wood" }
+  },
+  "elementAttributes": {
+    "metal": { "color": "金色", "colors": ["白色", "金色", "银色"], "direction": "西方", "season": "秋季", "numbers": [4, 9], "industries": ["金融", "银行", "五金", "珠宝", "汽车", "机械"] },
+    "wood": { "color": "绿色", "colors": ["绿色", "青色", "翠色"], "direction": "东方", "season": "春季", "numbers": [3, 8], "industries": ["教育", "文化", "出版", "林业", "园艺", "服装"] },
+    "water": { "color": "蓝色", "colors": ["黑色", "蓝色", "灰色"], "direction": "北方", "season": "冬季", "numbers": [1, 6], "industries": ["物流", "旅游", "传媒", "渔业", "酒水", "水产"] },
+    "fire": { "color": "红色", "colors": ["红色", "紫色", "橙色"], "direction": "南方", "season": "夏季", "numbers": [2, 7], "industries": ["餐饮", "娱乐", "互联网", "电子", "能源", "化工"] },
+    "earth": { "color": "黄色", "colors": ["黄色", "棕色", "咖啡色"], "direction": "中央", "season": "四季交替", "numbers": [5, 10], "industries": ["房地产", "建筑", "农业", "矿业", "陶瓷", "畜牧"] }
+  },
+  "nayin": {
+    "甲子": "海中金", "乙丑": "海中金", "丙寅": "炉中火", "丁卯": "炉中火",
+    "戊辰": "大林木", "己巳": "大林木", "庚午": "路旁土", "辛未": "路旁土",
+    "壬申": "剑锋金", "癸酉": "剑锋金", "甲戌": "山头火", "乙亥": "山头火",
+    "丙子": "涧下水", "丁丑": "涧下水", "戊寅": "城头土", "己卯": "城头土",
+    "庚辰": "白蜡金", "辛巳": "白蜡金", "壬午": "杨柳木", "癸未": "杨柳木",
+    "甲申": "泉中水", "乙酉": "泉中水", "丙戌": "屋上土", "丁亥": "屋上土",
+    "戊子": "霹雳火", "己丑": "霹雳火", "庚寅": "松柏木", "辛卯": "松柏木",
+    "壬辰": "长流水", "癸巳": "长流水", "甲午": "沙中金", "乙未": "沙中金",
+    "丙申": "山下火", "丁酉": "山下火", "戊戌": "平地木", "己亥": "平地木",
+    "庚子": "壁上土", "辛丑": "壁上土", "壬寅": "金箔金", "癸卯": "金箔金",
+    "甲辰": "覆灯火", "乙巳": "覆灯火", "丙午": "天河水", "丁未": "天河水",
+    "戊申": "大驿土", "己酉": "大驿土", "庚戌": "钗钏金", "辛亥": "钗钏金",
+    "壬子": "桑柘木", "癸丑": "桑柘木", "甲寅": "大溪水", "乙卯": "大溪水",
+    "丙辰": "沙中土", "丁巳": "沙中土", "戊午": "天上火", "己未": "天上火",
+    "庚申": "石榴木", "辛酉": "石榴木", "壬戌": "大海水", "癸亥": "大海水"
+  }
+}
